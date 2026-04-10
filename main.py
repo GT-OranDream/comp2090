@@ -19,10 +19,10 @@ def main():
         print("1. Increase student（add）")#add student
         print("2. Delete student")#delete student
         print("3. Show all student ")#show all
-        print("4. Ascending order the mark")#成绩升序
-        print("5. Descending order the mark ")#成绩降序
-        print("6. Save to the document")#保存到文件
-        print("0. LEAVE")#退出
+        print("4. Ascending order the mark")#ascensing order of grades
+        print("5. Descending order the mark ")#descending order of grades
+        print("6. Save to the document")#save to document
+        print("0. LEAVE")#leave
         choice = input("Please enter the options：")
 
         try:
