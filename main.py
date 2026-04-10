@@ -6,7 +6,7 @@ from file_io import FileIO
 def main():
     manager = StudentManager()
     filename = "students.txt"
-    # 加载
+    # load
     students = FileIO.load_students(filename)
     for s in students:
         try:
@@ -16,9 +16,9 @@ def main():
 
     while True:
         print("\n=====--- Student grade sorting system ---=====")
-        print("1. Increase student（add）")#增加学生
-        print("2. Delete student")#删除学生
-        print("3. Show all student ")#显示全部
+        print("1. Increase student（add）")#add student
+        print("2. Delete student")#delete student
+        print("3. Show all student ")#show all
         print("4. Ascending order the mark")#成绩升序
         print("5. Descending order the mark ")#成绩降序
         print("6. Save to the document")#保存到文件
