@@ -1,6 +1,6 @@
 class Person:
     def __init__(self, name):
-        self.__name = name  # 封装：私有属性
+        self.__name = name  # sale and package:privaate property
 
     @property
     def name(self):
@@ -10,7 +10,7 @@ class Student(Person):
     def __init__(self, student_id, name, score):
         super().__init__(name)
         self.__student_id = student_id
-        self.__score = score # 封装
+        self.__score = score # seal and package
     @property
     def student_id(self):
         return self.__student_id
