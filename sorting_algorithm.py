@@ -1,9 +1,9 @@
-#排序策略基类
+#sorting strategy base class
 class SortStrategy:
     def sort(self, student_list):
         pass
 
-# 升序
+# ascending order
 class ShellSortAsc(SortStrategy):
     def sort(self, student_list):
         if not student_list:
@@ -23,7 +23,7 @@ class ShellSortAsc(SortStrategy):
             gap //= 2
         return students
 
-# 降序
+# descending order
 class ShellSortDesc(SortStrategy):
     def sort(self, student_list):
         if not student_list:
