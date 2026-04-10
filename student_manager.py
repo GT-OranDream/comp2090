@@ -20,5 +20,5 @@ class StudentManager:
         return self.__student_list.copy()
 
     def sort_students(self, strategy):
-        # 多态调用
+        #polymorphic call
         return strategy.sort(self.__student_list)
