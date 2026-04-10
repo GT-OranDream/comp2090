@@ -1,5 +1,5 @@
 class StudentManager:
-    # 列表
+    # list
     def __init__(self):
         self.__student_list = []
 
